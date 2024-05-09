@@ -1,0 +1,29 @@
+  // const [data, setData] = useState([]);
+  // const apiKey = "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";
+  // const apiURL = "https://api.openai.com/v1/chat/completions";
+  // const [textInput, setTextInput] = useState("");
+
+  // const handleSend = async () => {
+  //   const prompt = textInput;
+  //   const response = await axios.post(
+  //     apiURL,
+  //     {
+  //       prompt: prompt,
+  //       max_tokens: 1024,
+  //       temperature: 0.5,
+  //     },
+  //     {
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //         Authorization: `Bearer ${apiKey}`,
+  //       },
+  //     }
+  //   );
+  //   const text = response.data.choices[0].text;
+  //   setData([
+  //     ...data,
+  //     { type: "user", text: textInput },
+  //     { type: "bot", text: text },
+  //   ]);
+  //   setTextInput("");
+  // };
