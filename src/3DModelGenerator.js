@@ -108,7 +108,7 @@ const OpenAIImageGenerationComponent = () => {
 
   const handleImageGeneration = async (selectedImage) => {
     console.log(selectedImage);
-    const apiKey = "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";
+    const apiKey = " "; // Replace this with your actual API key
 
     try {
       const response = await axios.post(

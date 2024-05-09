@@ -14,7 +14,7 @@ const ProductDescription = () => {
   const [productTitle, setProductTitle] = useState("");
   const [productDetails, setProductDetails] = useState("");
 
-  const OPENAI_API_KEY = "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"; // Replace this with your actual API key
+  const OPENAI_API_KEY = " "; // Replace this with your actual API key
 
   const generateProductDescription = async () => {
     if (!productTitle.trim() || !productDetails.trim()) return;
