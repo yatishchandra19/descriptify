@@ -1,5 +1,6 @@
   // const [data, setData] = useState([]);
-  // const apiKey = "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";
+  // const apiKey = " "; //Replace this with your actual API key
+
   // const apiURL = "https://api.openai.com/v1/chat/completions";
   // const [textInput, setTextInput] = useState("");
 
